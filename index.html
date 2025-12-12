@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WritingFlow - Dein fokussierter Schreibbegleiter</title>
+    <meta name="description" content="Die einzige Schreib-App, die dich wirklich fokussiert. Mit KI-gestützten Zusammenfassungen und 15-Minuten-Sessions für kreativen Fluss.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">WritingFlow</h1>
+            <nav class="nav">
+                <a href="#features">Features</a>
+                <a href="#beta">Beta</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Dein fokussierter Schreibbegleiter</h1>
+                    <p class="hero-subtitle">Die einzige Schreib-App, die dich wirklich fokussiert. Mit KI-gestützten Zusammenfassungen und 15-Minuten-Sessions für kreativen Fluss.</p>
+                    <div class="hero-cta">
+<a href="https://testflight.apple.com/join/EB6BK3DE" class="btn btn-primary">TestFlight Link</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="screenshot-container">
+                        <img src="screenshot.png" alt="WritingFlow App Screenshot" class="app-screenshot" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="container">
+                <h2 class="section-title">Warum WritingFlow anders ist</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">⏱️</div>
+                        <h3>15-Minuten-Fokus-Sessions</h3>
+                        <p>Kurze, intensive Schreibblöcke mit deaktiviertem Rücktaste, die dich nach vorne bringen.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🧠</div>
+                        <h3>KI-gestützte Zusammenfassungen</h3>
+                        <p>Apple Intelligence analysiert deine Sessions und liefert wertvolle Einblicke in deinen Schreibprozess.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">⏸️</div>
+                        <h3>Intelligente Pausen</h3>
+                        <p>Automatische Timer-Pausen, wenn du aufhörst zu schreiben. Kein Druck, nur Fluss.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🔄</div>
+                        <h3>Session-Rewind</h3>
+                        <p>Review und Reflektion deiner abgeschlossenen Schreibsessions mit detaillierten Analytics.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📊</div>
+                        <h3>Schreib-Analytics</h3>
+                        <p>Verfolge deine Fortschritte, Muster und Verbesserungen über Zeit mit detaillierten Statistiken.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🔒</div>
+                        <h3>100% Privat & Lokal</h3>
+                        <p>Alle Daten bleiben auf deinem Mac. KI-Verarbeitung on-device. Keine Cloud, keine Tracker.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="beta" class="beta-section">
+            <div class="container">
+                <div class="beta-content">
+                    <h2 class="section-title">Sei dabei, wenn WritingFlow zur besten Schreib-App wird</h2>
+                    <p>Teste jetzt die neuesten Features und beeinflusse die Entwicklung. Als Beta-Tester bekommst du exklusiven Zugang zu neuen Funktionen bevor sie veröffentlicht werden.</p>
+<a href="https://testflight.apple.com/join/EB6BK3DE" class="btn btn-primary">TestFlight Link</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-links">
+                <a href="https://benkohler.de/impressum.html">Impressum</a>
+                <a href="https://benkohler.de/datenschutz.html">Datenschutz</a>
+            </div>
+            <p>&copy; 2025 WritingFlow. Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+
+    <script>
+        function scrollToBeta() {
+            document.getElementById('beta').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // Add smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
